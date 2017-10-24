@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="This website features coding projects using HTML, CSS, and JavaScript.">
+    <meta name="keywords" content="HTML,CSS,JavaScript, Front-End, Developer, Portfolio">
+    <meta name="author" content="Ashleigh Nichols">
     <title>Ashleigh Nichols' Portfolio Site</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -13,7 +16,7 @@
 
 <body>
     <div class="container">
-        <div class="row">
+        <header class="row">
             <div class="col-xs-4 col-md-6">
                 <img src="images/fakelogo.png" alt="logo" class="img-responsive">
             </div>
@@ -21,47 +24,68 @@
                 <h1>Ashleigh Nichols</h1>
                 <h3>front-end ninja</h3>
             </div>
-        </div>
-
-
-        <section class="custom-rule">
-            <hr>
-        </section>
+        </header>
 
 
         <section class="row">
             <div class="col-xs-12">
+                <hr class="custom-rule">
+            </div>
+        </section>
+
+
+        <section class="row">
+            <header class="col-xs-12">
                 <img src="images/closeupcode.jpg" alt="close up image of code" class="img-responsive">
-            </div>
+            </header>
         </section>
 
-        <section class="row">
+
+        <main role="main" id="main">
+            <section class="row">
+                <div class="col-xs-12">
+                    <h2>Featured Work</h2>
+                </div>
+            </section>
+
+            <section class="row">
+                <article class="text-center col-xs-12 col-sm-4">
+                    <img src="images/app.jpg" alt="apps" class="img-responsive">
+                    <h2 class="dark-caps">Appify</h2>
+                    <a href="#"><p>Link to project</p></a>
+                </article>
+                <article class="text-center col-xs-12 col-sm-4">
+                    <img src="images/sunflower.jpg" alt="sunflower" class="img-responsive">
+                    <h2 class="dark-caps">Sunflower</h2>
+                    <a href="#"><p>Link to project</p></a>
+                </article>
+                <article class="text-center col-xs-12 col-sm-4">
+                    <img src="images/bokeh.jpg" alt="bokeh" class="img-responsive">
+                    <h2 class="dark-caps">Bokeh</h2>
+                    <a href="#"><p>Link to project</p></a>
+                </article>
+            </section>
+        </main>
+        <footer class="row">
+             <section class="row">
             <div class="col-xs-12">
-                <h2>Featured Work</h2>
+                <hr class="custom-rule">
             </div>
         </section>
-
-        <section class="row">
-            <div class="text-center col-xs-12 col-sm-4">
-                <img src="images/app.jpg" alt="apps" class="img-responsive">
-                <h2 class="caps">Appify</h2>
-                <a href="#">Link to project</a>
-            </div>
-            <div class="text-center col-xs-12 col-sm-4">
-                <img src="images/sunflower.jpg" alt="sunflower" class="img-responsive">
-                <h2 class="caps">Sunflower</h2>
-                <a href="#">Link to project</a>
-            </div>
-            <div class="text-center col-xs-12 col-sm-4">
-                <img src="images/bokeh.jpg" alt="bokeh" class="img-responsive">
-                <h2 class="caps">Bokeh</h2>
-                <a href="#">Link to project</a>
-            </div>
-        </section>
+            
+            <p class="text-center">
+                Follow me on: 
+                <a href= "#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a> | 
+                <a href= "#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a> |
+                <a href= "#"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+            </p>
+        </footer>
     </div>
     
-    <script>src="bootstrap.min.js"</script>
-    <script>src="jquery-3.2.1.min.js"</script>
+    <!-- scripts are not in use but this is how they would be linked
+    <script src = "jquery-3.2.1.min.js"></script>
+    <script src = "bootstrap.min.js"></script>
+    -->
 </body>
 
 </html>
